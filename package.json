@@ -1,0 +1,23 @@
+{
+  "name": "clean-ts-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ts-config": "tsc --init",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denilson-santos/clean-ts-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denilson-santos/clean-ts-api/issues"
+  },
+  "homepage": "https://github.com/denilson-santos/clean-ts-api#readme",
+  "devDependencies": {
+    "typescript": "^4.6.2"
+  }
+}
