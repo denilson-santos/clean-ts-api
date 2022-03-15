@@ -1,0 +1,10 @@
+services:
+  app:
+    build: .
+    image: clean-ts-api/node:lts
+    container_name: clean-ts-api-app
+    entrypoint: ./.docker/entrypoint.sh
+    volumes:
+      - ./:/home/node/app
+    ports:
+      - 3333:3333
