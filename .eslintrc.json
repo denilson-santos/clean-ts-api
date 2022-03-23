@@ -125,14 +125,7 @@
     ],
     "import/no-absolute-path": "error",
     "import/no-useless-path-segments": "error",
-    "import/no-extraneous-dependencies": [
-      "error",
-      {
-        "devDependencies": ["**/test/**/*", "**/webpack.*.js"],
-        "optionalDependencies": false,
-        "peerDependencies": false
-      }
-    ],
+    "import/no-extraneous-dependencies": "off",
     "import/extensions": [
       "error",
       "ignorePackages",
